@@ -46,6 +46,6 @@ Folders are checked by NAME not by mtime, ctime or atime. This means that the na
    
 3. Run Python script. Takes two arguments - the first is how many days you wish to keep (including today). The second is the directory to scan. Using the directory structure above and wanting to keep 3 days for example:
 
-   `python3 ./deleteoldfolders.py 3 ./home/ftpuser/cctv/192.168.1.1/`
+   `python3 ./tidbit-deleteoldfolders/deleteoldfolders.py 3 ./cctv/files/192.168.1.1/`
  
 4. (Optionally) install via crontab
