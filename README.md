@@ -49,3 +49,5 @@ Folders are checked by NAME not by mtime, ctime or atime. This means that the na
    `python3 ./tidbit-deleteoldfolders/deleteoldfolders.py 3 ./cctv/files/192.168.1.1/`
  
 4. (Optionally) install via crontab
+30 12 * * * python3 <location of .py file> <days to keep> <location of files>cctv/files/192.168.1.108 >> <normal logs> 2>> <error logs>
+
